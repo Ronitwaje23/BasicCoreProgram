@@ -12,7 +12,8 @@ namespace BasicCoreProgram
         {
             Console.WriteLine("welcome to basic program");
             HeadTail head = new HeadTail();
-            head.Check_leap_year();
+         
+            head.Powertwo();
             Console.ReadLine();
 
         }
