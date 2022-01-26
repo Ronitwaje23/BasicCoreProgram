@@ -12,7 +12,7 @@ namespace BasicCoreProgram
         {
             Console.WriteLine("welcome to basic program");
             HeadTail head = new HeadTail();
-            head.Checkpercentage();
+            head.Check_leap_year();
             Console.ReadLine();
 
         }
