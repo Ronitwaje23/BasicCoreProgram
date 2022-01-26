@@ -12,8 +12,8 @@ namespace BasicCoreProgram
         {
             Console.WriteLine("welcome to basic program");
             HeadTail head = new HeadTail();
-         
-            head.Powertwo();
+            
+            head.Harmonic_number();
             Console.ReadLine();
 
         }
