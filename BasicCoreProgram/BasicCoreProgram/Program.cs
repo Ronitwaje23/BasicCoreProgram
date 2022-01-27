@@ -13,7 +13,7 @@ namespace BasicCoreProgram
             Console.WriteLine("welcome to basic program");
             HeadTail head = new HeadTail();
 
-            head.division();
+            head.Swaping(25 ,4  );
             Console.ReadLine();
 
         }
