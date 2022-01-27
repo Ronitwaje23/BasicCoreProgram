@@ -12,8 +12,11 @@ namespace BasicCoreProgram
         {
             Console.WriteLine("welcome to basic program");
             HeadTail head = new HeadTail();
+            Console.WriteLine("Enter charactor");
+            char alphabet = Convert.ToChar(Console.ReadLine());
 
-            head.Evenodd(12);
+
+            head.vowel_consonant(alphabet);
             Console.ReadLine();
 
         }
