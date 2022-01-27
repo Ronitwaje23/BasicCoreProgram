@@ -16,7 +16,7 @@ namespace BasicCoreProgram
             char alphabet = Convert.ToChar(Console.ReadLine());
 
 
-            head.vowel_consonant(alphabet);
+            head.largest_num(12,18 ,23);
             Console.ReadLine();
 
         }
